@@ -40,7 +40,7 @@ In the future, I would like to do a deeper analysis on the trends to see if thei
 Additionally, I plan on locking the control limits to see if the process and the control limits changes in each phase of Alameda Count responses to covid-19. 
 
 
-##Recommendation 
+## Recommendation 
 Based on the control charts, I would recommend any viewer to not overreact to every spike in covid-19 cases they see. The spikes could simply be common variance and shouldn’t be interpreted as highly meaningful. For example, the viewer shouldn’t see a spike and expect that to indicate covid-19 cases are increasing, instead the viewer should see that spike as expected variation. 
 
 Additionally, I recommend the control charts to be tracked to see if covid-19 daily expected cases are increasing or decreasing with each phase in Alameda County response to covid-19. The control limits would need to be recalculated if the # of daily expected covid-19 cases are actually changing. 
