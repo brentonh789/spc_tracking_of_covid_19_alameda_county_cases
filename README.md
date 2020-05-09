@@ -26,7 +26,7 @@ One major nuance is that the Alameda County total case count needs to add togthe
 The main assumption of my analysis is that I assuming that Alameda County daily covid-19 is somewhat a stable process currently. I believe this to be true given that shelter in place order was initiated in March 19 and the data I have still falls in Phase 1. I expect the daily covid-19 cases to be a stable process in Phase I, because in theory everyone should be following the same process of sheltering in place. 
 
 ## Analysis
-After cleaning and calculating the statistics needed for the control charts , the control charts were analyzed to determine what should Alameda County expectation be on daily cases.
+After cleaning and calculating the statistics needed for the control charts, the control charts were analyzed to determine what Alameda County expected daily covid-19 cases be. Particularly, what days had abnormally high and low covid cases and what days had the expected number of cases. The control charts graphs are below.
 
 ![](3_images/dashboard_screenshot.png)
 Based on the control chart, the majority of the daily covid-19 cases in Alameda County should fall between 3 and 74 cases daily. As seen below, this mean the majority of the spikes are not really significant and should be expected by Alameda. In fact, their were only 2 days with high enough spikes to statistically signal that these days are ‘out of control’ and something has happened. Specifically, 4/3/20 and 4/15/20 had daily covid-19 cases above 74 cases. Based on this, I would recommend Alameda County to determine why these days had such high case counts to see if their is something that needs to be fixed of if these are one time events. 
