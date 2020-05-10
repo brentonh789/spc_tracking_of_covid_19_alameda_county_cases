@@ -1,8 +1,8 @@
-## Tracking Covid-19 case of Alameda County California using Statistical Process Control
+## Tracking  # of COVID-19 cases in Alameda County California using Statistical Process Control
 [Link to Tableau Dashboard](https://public.tableau.com/profile/brenton.hsu5940#!/vizhome/AlamedaCountyControlChartCovid-19Cases/Overview?publish=yes)
 
 
-##Summary
+## Summary
 While watching the news on television, I watch the anchor display a trend graph of daily COVID-19 cases in the county I live in and describe the graph as if every data point signaled a uptick, flattening, or downtick in COVID-19 cases. For example, the anchor would say that the "curve was flattening" after seeing two days of decreasing cases or the anchor would imply COVID-19 cases were getting worst after seeing a spike in the data. However, the anchor scrutinizing every data point of # cases of COVID-19 could be harmful and lead to an over reaction or panic to the viewers. Instead, the data should be looked at holistically and statistically to determine if each new day of # of COVID-19 cases signal any meaning. 
 
 Spikes and random patterns are always naturally appearing in data and are generally common cause variation. An example of common cause variation would be the # of people who shop in a specific grocery store each day. Obviously, the grocery store would expect the # of people to shop in the grocery store to change on a day to day basis, this is the expected common cause variation. On the other hand, a start of a shelter in place order could significantly increase the # of people to shop on that day, this would be a special cause variation, because their was no expectation of this to happen based on historical data. Detecting these special cause variation are important, because they can signal that an event that triggered your data to have an outlier or your data common cause variation could be changing. 
