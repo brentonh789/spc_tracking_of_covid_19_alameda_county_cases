@@ -1,8 +1,15 @@
 ## Tracking  # of COVID-19 cases in Alameda County California using Statistical Process Control
 [Link to Tableau Dashboard](https://public.tableau.com/profile/brenton.hsu5940#!/vizhome/AlamedaCountyControlChartCovid-19Cases/Overview?publish=yes)
 
+## 2020-05-23 Status Update
+On May 19, Alameda County went into Phase II of reducing shelter in place restrictions. For example, retail stores can now offer curbside pickup as part of the easing restrictions. In order to monitor the impact of Phase iI on # of daily cases of COVID-19 so far, the control chart is analyzed for any significant spikes in # of cases since easing restrictions.
 
-## Summary
+Based on the new data after Phase II, the control does not detect any abnormal spike in the # of daily COVID-19 cases, which indicates that Phase II did not really see any increase or decrease in # of  daily COVID-19 cases. This is hopeful, because the lack of change in # of COVID-19 cases could indicate that Alameda can ease a bit more. 
+
+However, their may be trends in the data that are not being detected in the data. For example, multiple days below the average could indicate a special cause. Future steps of the control chart may include detecting abnormal trends, not just spikes. 
+
+
+## Initial Summary
 While watching the news on television, I watch the anchor display a trend graph of daily COVID-19 cases in the county I live in and describe the graph as if every data point signaled a uptick, flattening, or downtick in COVID-19 cases. For example, the anchor would say that the "curve was flattening" after seeing two days of decreasing cases or the anchor would imply COVID-19 cases were getting worst after seeing a spike in the data. However, the anchor scrutinizing every data point of # cases of COVID-19 could be harmful and lead to an over reaction or panic to the viewers. Instead, the data should be looked at holistically and statistically to determine if each new day of # of COVID-19 cases signal any meaning. 
 
 Spikes and random patterns are always naturally appearing in data and are generally common cause variation. An example of common cause variation would be the # of people who shop in a specific grocery store each day. Obviously, the grocery store would expect the # of people to shop in the grocery store to change on a day to day basis, this is the expected common cause variation. On the other hand, a start of a shelter in place order could significantly increase the # of people to shop on that day, this would be a special cause variation, because their was no expectation of this to happen based on historical data. Detecting these special cause variation are important, because they can signal that an event that triggered your data to have an outlier or your data common cause variation could be changing. 
@@ -11,17 +18,12 @@ By leveraging control charts, I analyzed the data to determined the common cause
 
 Based on the controls chart, I recommend viewers to not be alarm or panic at any spikes that are below 82 cases. Instead, these spikes are expected common cause variation and the impact of COVID-19 is probably not getting worst. However, if a spike above 82 case is detected than that should be a signal for the viewer to check for any COVID-19 related news to see their is a reason for this spike.  
 
+
 Below are the Control Charts that are used to detect significant spikes in # of COVID-19 cases in Alameda County. Any date after 5/6 are not included in calculating the control limits, since they were locked to start detecting any significant spikes in cases. Control limits (UCL, LCL) are the calculated values of the expected range of daily # of cases.
 ![](3_images/dashboard_screenshot.png)
 
 
 
-## 2020-05-23 Status Update
-On May 19, Alameda County went into Phase II of reducing shelter in place restrictions. For example, retail stores can now offer curbside pickup as part of the easing restrictions. In order to monitor the impact of Phase iI on # of daily cases of COVID-19 so far, the control chart is analyzed for any significant spikes in # of cases since easing restrictions.
-
-Based on the new data after Phase II, the control does not detect any abnormal spike in the # of daily COVID-19 cases, which indicates that Phase II did not really see any increase or decrease in # of  daily COVID-19 cases. This is hopeful, because the lack of change in # of COVID-19 cases could indicate that Alameda can ease a bit more. 
-
-However, their may be trends in the data that are not being detected in the data. For example, multiple days below the average could indicate a special cause. Future steps of the control chart may include detecting abnormal trends, not just spikes. 
 
 
 
