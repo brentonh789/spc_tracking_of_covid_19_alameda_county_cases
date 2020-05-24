@@ -2,11 +2,10 @@
 [Link to Tableau Dashboard](https://public.tableau.com/profile/brenton.hsu5940#!/vizhome/AlamedaCountyControlChartCovid-19Cases/Overview?publish=yes)
 
 ## 2020-05-23 Status Update
-On May 19, Alameda County went into Phase II of reducing shelter in place restrictions. For example, retail stores can now offer curbside pickup as part of the easing restrictions. In order to monitor the impact of Phase iI on # of daily cases of COVID-19 so far, the control chart is analyzed for any significant spikes in # of cases since easing restrictions.
+On May 19, Alameda County went into Phase II of reducing shelter in place restrictions. For example, retail stores can now offer curbside pickup as part of the easing restrictions. In order to monitor the impact of Phase II on # of daily cases of COVID-19 so far, the control chart is analyzed for any significant spikes in # of cases since easing restrictions.
 
-Based on the new data after Phase II, the control does not detect any abnormal spike in the # of daily COVID-19 cases, which indicates that Phase II did not really see any increase or decrease in # of  daily COVID-19 cases. This is hopeful, because the lack of change in # of COVID-19 cases could indicate that Alameda can ease a bit more. 
+Based on the new daily data after Phase II, the control does not detect any abnormal spike in the # of daily COVID-19 cases, which indicates that Phase II did not really see any increase or decrease in # of  daily COVID-19 cases. This is hopeful, because the lack of change in # of COVID-19 cases could indicate that Alameda can ease restrictions a bit more without any negative effects.  
 
-However, their may be trends in the data that are not being detected in the data. For example, multiple days below the average could indicate a special cause. Future steps of the control chart may include detecting abnormal trends, not just spikes. 
 
 Below are the Control Charts that are used to detect significant spikes in # of COVID-19 cases in Alameda County. Any date after 5/6 are not included in calculating the control limits, since they were locked to start detecting any significant spikes in cases. Control limits (UCL, LCL) are the calculated values of the expected range of daily # of cases.
 ![](3_images/dashboard_screenshot.png)
@@ -18,8 +17,7 @@ Spikes and random patterns are always naturally appearing in data and are genera
 
 By leveraging control charts, I analyzed the data to determined the common cause variation in the daily # of COVID-19 cases in Alameda County and what daily spikes are special cause variation. As a result, I am able to determine if each new daily data point of # of COVID-19 cases are signaling any potential issues or if Alameda County can expect a change in common cause variation of # of COVID-19 cases. Specifically, Alameda County can currently expect their to be between 3 and 82 COVID-19 cases each day with an average of 43 cases. Any day with the # of cases spiking above 82 signals a special cause and should be analyzed further to see if this was a one time event or if the common cause variation could be changing due to a process change. An example of a process change could be a change in response from Alameda County, such as moving from Phase I to Phase II of shelter in place. This process change would then require for the Control Chart to be recalculated to get an updated view of the expected # of daily COVID-19 cases. On the other spectrum, a downtick below 3 cases in a day signals a special cause variation, which can also be due to a process change or one time event. 
 
-Based on the controls chart, I recommend viewers to not be alarm or panic at any spikes that are below 82 cases. Instead, these spikes are expected common cause variation and the impact of COVID-19 is probably not getting worst. However, if a spike above 82 case is detected than that should be a signal for the viewer to check for any COVID-19 related news to see their is a reason for this spike.  
-
+Based on the controls chart, I recommend viewers to not be alarm or panic at any spikes that are below 82 cases. Instead, these spikes are expected common cause variation and the impact of COVID-19 is probably not getting worst. However, if a spike above 82 case is detected than that should be a signal for the viewer to check for any COVID-19 related news to see their is a reason for this spike.  However, their may be trends in the data that are not being detected in the data. For example, multiple days below the average could indicate a special cause. Future steps of the control chart may include detecting abnormal trends, not just spikes. 
 
 ## Appendix 
 ## Future Steps
