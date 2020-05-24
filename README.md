@@ -15,11 +15,19 @@ Below are the Control Charts that are used to detect significant spikes in # of 
 ![](3_images/dashboard_screenshot.png)
 
 
-## Future Steps
-Moving forward, I am locking the control limits to be able to detect any future special cause events that can be signally a change in the impact of COVID-19. Additionally, a deeper analysis may be done to detect any trends are special cause variation, which can lead to a smaller range of control limits. Also, additional flags can be added to detect special causes besides spikes. For example, special causes can also be trends in the data that are statistically unlikely given the current status of COVID-19, which could be signal in change in COVID-19 impact.
+
+## 2020-05-23 Status Update
+On May 19, Alameda County went into Phase II of reducing shelter in place restrictions. For example, retail stores can now offer curbside pickup as part of the easing restrictions. In order to monitor the impact of Phase iI on # of daily cases of COVID-19 so far, the control chart is analyzed for any significant spikes in # of cases since easing restrictions.
+
+Based on the new data after Phase II, the control does not detect any abnormal spike in the # of daily COVID-19 cases, which indicates that Phase II did not really see any increase or decrease in # of  daily COVID-19 cases. This is hopeful, because the lack of change in # of COVID-19 cases could indicate that Alameda can ease a bit more. 
+
+However, their may be trends in the data that are not being detected in the data. For example, multiple days below the average could indicate a special cause. Future steps of the control chart may include detecting abnormal trends, not just spikes. 
+
 
 
 ## Appendix 
+## Future Steps
+Moving forward, I am locking the control limits to be able to detect any future special cause events that can be signally a change in the impact of COVID-19. Additionally, a deeper analysis may be done to detect any trends are special cause variation, which can lead to a smaller range of control limits. Also, additional flags can be added to detect special causes besides spikes. For example, special causes can also be trends in the data that are statistically unlikely given the current status of COVID-19, which could be signal in change in COVID-19 impact.
 
 ## Data
 The data is downloaded from Alameda County Open Data at this link [acgov link](https://data.acgov.org/datasets/AC-HCSA::alameda-county-covid-19-cases-and-deaths-over-time-1/data)
