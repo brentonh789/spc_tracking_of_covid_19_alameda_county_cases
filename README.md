@@ -6,13 +6,14 @@ All the dates after May 18 is showing concerning patterns and spikes in the # of
 
 Although determining the cause for the process change in # of COVID-19 cases is difficult, we can speculate that it is likely due to Alameda opening up phase II in shelter in place or the recent mass protests. Nevertheless, the most recent data and control chart provides evidence that Alameda County will see an increase in the # of COVID-19 cases they see each day in the near future.
 
+Below are the Control Charts that are used to detect significant spikes in # of COVID-19 cases in Alameda County. Any date after 5/6 are not included in calculating the control limits, since they were locked to start detecting any significant spikes in cases. Control limits (UCL, LCL) are the calculated values of the expected range of daily # of cases.
+![](3_images/dashboard_screenshot.png)
+
 ## 2020-05-23 Status Update
 On May 19, Alameda County went into Phase II of reducing shelter in place restrictions. For example, retail stores can now offer curbside pickup as part of the easing restrictions. In order to monitor the impact of Phase II on # of daily cases of COVID-19 so far, the control chart is analyzed for any significant spikes in # of cases since easing restrictions.
 
 Based on the new daily data after Phase II, the control does not detect any abnormal spike in the # of daily COVID-19 cases, which indicates that Phase II did not really see any increase or decrease in # of  daily COVID-19 cases so far. However, their may be a longer lag time before we see the spikes.
 
-Below are the Control Charts that are used to detect significant spikes in # of COVID-19 cases in Alameda County. Any date after 5/6 are not included in calculating the control limits, since they were locked to start detecting any significant spikes in cases. Control limits (UCL, LCL) are the calculated values of the expected range of daily # of cases.
-![](3_images/dashboard_screenshot.png)
 
 ## Initial Summary
 While watching the news on television, I watch the anchor display a trend graph of daily COVID-19 cases in the county I live in and describe the graph as if every data point signaled a uptick, flattening, or downtick in COVID-19 cases. For example, the anchor would say that the "curve was flattening" after seeing two days of decreasing cases or the anchor would imply COVID-19 cases were getting worst after seeing a spike in the data. However, the anchor scrutinizing every data point of # cases of COVID-19 could be harmful and lead to an over reaction or panic to the viewers. Instead, the data should be looked at holistically and statistically to determine if each new day of # of COVID-19 cases signal any meaning. 
