@@ -1,13 +1,18 @@
 ## Tracking  # of COVID-19 cases in Alameda County California using Statistical Process Control
 [Link to Tableau Dashboard](https://public.tableau.com/profile/brenton.hsu5940#!/vizhome/AlamedaCountyControlChartCovid-19Cases/Overview?publish=yes)
 
-## 2020-06-04 Status Update
-All the dates after May 18 are showing concerning patterns and spikes in the # of COVID-19 cases each. Specifically, between May 18 and May 30, there were 13 straight days with COVID-19 cases being above the average of 42 cases a day. This is a strong pattern and likely suggests that the expected # of COVID-19 cases each day are increasing. Also, their are 5 straight days with very abnormal spikes in # of COVID-19 cases. May 29 to May 30 has 3 days in a row with the # of cases being above 107, when we should only be expecting a max of 82 cases a day.  Not only are their days with abnormally high # of cases, they are also high swings beings detected in # of cases. For instance, between 6/2 and 6/3 the # of cases dropped from 82 to 32, which is a drop of 50. Based on the control charts, we shouldn't expect the # of cases to swing up and down by more than 49. 
-
-Although determining the cause for the process change in # of COVID-19 cases is difficult, we can speculate that it is likely due to Alameda opening up phase II in shelter in place or the recent mass protests. Nevertheless, the most recent data and control chart provides evidence that Alameda County will see an increase in the # of COVID-19 cases they see each day in the near future.
+## 2020-06-13 Status Update
+At a glance, one can visually see that the majority of days starting in late May are falling above the expected average of 42 cases a day. Also, their is another spike in COVID-19 cases on 6/11. Given the rise in daily # of COVID-19 cases and the consistent spikes, the control chart limits needs to be recalculated to capture an accurate picture of the increase in COVID-19 cases in Alameda County.
 
 Below are the Control Charts that are used to detect significant spikes in # of COVID-19 cases in Alameda County. Any date after 5/6 are not included in calculating the control limits, since they were locked to start detecting any significant spikes in cases. Control limits (UCL, LCL) are the calculated values of the expected range of daily # of cases.
 ![](3_images/dashboard_screenshot.png)
+
+## 2020-06-04 Status Update
+All the dates after May 18 are showing concerning patterns and spikes in the # of COVID-19 cases each. Specifically, between May 18 and May 30, there were 13 straight days with COVID-19 cases being above the average of 42 cases a day. This is a strong pattern and likely suggests that the expected # of COVID-19 cases each day are increasing. Also, their are 5 straight days with very abnormal spikes in # of COVID-19 cases. May 29 to May 30 has 3 days in a row with the # of cases being above 107, when we should only be expecting a max of 82 cases a day.  Not only are their days with abnormally high # of cases, they are also high swings beings detected in # of cases. For instance, between 6/2 and 6/3 the # of cases dropped from 82 to 32, which is a drop of 50. Based on the control charts, we shouldn't expect the # of cases to swing up and down by more than 49 . 
+
+Although determining the cause for the process change in # of COVID-19 cases is difficult, we can speculate that it is likely due to Alameda opening up phase II in shelter in place, more testing, or the recent mass protests. Nevertheless, the most recent data and control chart provides evidence that Alameda County will see an increase in the # of COVID-19 cases they see each day in the near future.
+
+
 
 ## 2020-05-23 Status Update
 On May 19, Alameda County went into Phase II of reducing shelter in place restrictions. For example, retail stores can now offer curbside pickup as part of the easing restrictions. In order to monitor the impact of Phase II on # of daily cases of COVID-19 so far, the control chart is analyzed for any significant spikes in # of cases since easing restrictions.
